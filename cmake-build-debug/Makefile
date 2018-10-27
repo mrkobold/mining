@@ -122,32 +122,32 @@ mining/fast:
 	$(MAKE) -f CMakeFiles\mining.dir\build.make CMakeFiles/mining.dir/build
 .PHONY : mining/fast
 
-main.obj: main.c.obj
+md5/main.obj: md5/main.c.obj
 
-.PHONY : main.obj
+.PHONY : md5/main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\mining.dir\build.make CMakeFiles/mining.dir/main.c.obj
-.PHONY : main.c.obj
+md5/main.c.obj:
+	$(MAKE) -f CMakeFiles\mining.dir\build.make CMakeFiles/mining.dir/md5/main.c.obj
+.PHONY : md5/main.c.obj
 
-main.i: main.c.i
+md5/main.i: md5/main.c.i
 
-.PHONY : main.i
+.PHONY : md5/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\mining.dir\build.make CMakeFiles/mining.dir/main.c.i
-.PHONY : main.c.i
+md5/main.c.i:
+	$(MAKE) -f CMakeFiles\mining.dir\build.make CMakeFiles/mining.dir/md5/main.c.i
+.PHONY : md5/main.c.i
 
-main.s: main.c.s
+md5/main.s: md5/main.c.s
 
-.PHONY : main.s
+.PHONY : md5/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\mining.dir\build.make CMakeFiles/mining.dir/main.c.s
-.PHONY : main.c.s
+md5/main.c.s:
+	$(MAKE) -f CMakeFiles\mining.dir\build.make CMakeFiles/mining.dir/md5/main.c.s
+.PHONY : md5/main.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... mining
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... md5/main.obj
+	@echo ... md5/main.i
+	@echo ... md5/main.s
 .PHONY : help
 
 

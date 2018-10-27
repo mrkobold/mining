@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mining.dir/main.c.obj"
+  "CMakeFiles/mining.dir/md5/main.c.obj"
   "mining.pdb"
   "mining.exe"
   "mining.exe.manifest"

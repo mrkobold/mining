@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/mining/main.c" "E:/mining/cmake-build-debug/CMakeFiles/mining.dir/main.c.obj"
+  "E:/mining/md5/main.c" "E:/mining/cmake-build-debug/CMakeFiles/mining.dir/md5/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

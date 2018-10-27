@@ -56,27 +56,27 @@ include CMakeFiles/mining.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mining.dir/flags.make
 
-CMakeFiles/mining.dir/main.c.obj: CMakeFiles/mining.dir/flags.make
-CMakeFiles/mining.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\mining\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mining.dir/main.c.obj"
-	C:\tools\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mining.dir\main.c.obj   -c E:\mining\main.c
+CMakeFiles/mining.dir/md5/main.c.obj: CMakeFiles/mining.dir/flags.make
+CMakeFiles/mining.dir/md5/main.c.obj: ../md5/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\mining\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mining.dir/md5/main.c.obj"
+	C:\tools\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mining.dir\md5\main.c.obj   -c E:\mining\md5\main.c
 
-CMakeFiles/mining.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mining.dir/main.c.i"
-	C:\tools\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\mining\main.c > CMakeFiles\mining.dir\main.c.i
+CMakeFiles/mining.dir/md5/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mining.dir/md5/main.c.i"
+	C:\tools\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\mining\md5\main.c > CMakeFiles\mining.dir\md5\main.c.i
 
-CMakeFiles/mining.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mining.dir/main.c.s"
-	C:\tools\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\mining\main.c -o CMakeFiles\mining.dir\main.c.s
+CMakeFiles/mining.dir/md5/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mining.dir/md5/main.c.s"
+	C:\tools\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\mining\md5\main.c -o CMakeFiles\mining.dir\md5\main.c.s
 
 # Object files for target mining
 mining_OBJECTS = \
-"CMakeFiles/mining.dir/main.c.obj"
+"CMakeFiles/mining.dir/md5/main.c.obj"
 
 # External object files for target mining
 mining_EXTERNAL_OBJECTS =
 
-mining.exe: CMakeFiles/mining.dir/main.c.obj
+mining.exe: CMakeFiles/mining.dir/md5/main.c.obj
 mining.exe: CMakeFiles/mining.dir/build.make
 mining.exe: CMakeFiles/mining.dir/linklibs.rsp
 mining.exe: CMakeFiles/mining.dir/objects1.rsp
