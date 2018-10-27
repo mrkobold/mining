@@ -1,0 +1,3 @@
+E:/mining/cmake-build-debug/CMakeFiles/mining.dir
+E:/mining/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/mining/cmake-build-debug/CMakeFiles/rebuild_cache.dir
