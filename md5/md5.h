@@ -9,9 +9,8 @@
 
 #endif //MINING_MD5_H
 
-
+int PADDING_BYTES = 9;
 uint32_t TWO_TO_31 = (uint32_t) 1 << 31;
-
 uint32_t s[64] = {7, 12, 17, 22, 7, 12, 17, 22, 7, 12, 17, 22, 7, 12, 17, 22,
                   5, 9, 14, 20, 5, 9, 14, 20, 5, 9, 14, 20, 5, 9, 14, 20,
                   4, 11, 16, 23, 4, 11, 16, 23, 4, 11, 16, 23, 4, 11, 16, 23,
@@ -32,11 +31,6 @@ uint32_t K[64] = {0xd76aa478, 0xe8c7b756, 0x242070db, 0xc1bdceee,
                   0x655b59c3, 0x8f0ccc92, 0xffeff47d, 0x85845dd1,
                   0x6fa87e4f, 0xfe2ce6e0, 0xa3014314, 0x4e0811a1,
                   0xf7537e82, 0xbd3af235, 0x2ad7d2bb, 0xeb86d391};
-
-uint32_t a0 = 0x67452301; //A
-uint32_t b0 = 0xefcdab89; //B
-uint32_t c0 = 0x98badcfe; //C
-uint32_t d0 = 0x10325476; //D
 
 void printBits(int num) {
     printf("\n\n\n");
@@ -74,7 +68,7 @@ void ph(char var, uint32_t n) {
 /// print binary form of an array of uint8_t
 /// length of array = 64 bytes!!!!!!!
 void pab(uint8_t *a) {
-    printf("\n");
+    printf("\n\n");
     for (int i = 0; i < 64; i++) {
         uint8_t mask = (uint8_t) 1 << 7;
         uint8_t n = a[i];
